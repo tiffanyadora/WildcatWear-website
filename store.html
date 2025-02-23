@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Arizona Wildcats Basketball Jersey - WildcatWear</title>
+    
+    <!-- Linking external stylesheets for FontAwesome icons and custom styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/utility-styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/store.css">
+</head>
+<body>
+
+    <!-- Navbar with hamburger menu for mobile responsiveness -->
+    <nav class="navbar d-flex justify-between flex-wrap align-center">
+        <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+        <label for="navbar-toggle" class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!-- Logo centered for better branding -->
+        <a href="index.html" class="logo-container d-flex flex-1 justify-center">
+            <img src="images/wildcat-logo.png" alt="WildcatWear Logo" class="logo">
+        </a>
+
+        <!-- Navigation links for easy store browsing -->
+        <div class="nav-links d-flex flex-1 justify-start">
+            <a href="store.html" class="nav-link mr-2 p-2 active">Shop</a>
+            <a href="#" class="nav-link mr-2 p-2">Collections</a>
+            <a href="#" class="nav-link mr-2 p-2">About</a>
+        </div>
+
+        <!-- Search, Sign In, and Cart icons for user actions -->
+        <div class="nav-actions d-flex flex-1 align-center justify-end gap-4">
+            <div class="search-container d-flex align-center">
+                <input type="checkbox" id="search-toggle" class="search-toggle">
+                <input type="text" class="search-input px-2" placeholder="Search products...">
+                <label for="search-toggle" class="search-icon my-1 mr-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+            </div>
+            <a href="#" class="login-link d-flex align-center gap-1">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                <span class="login-text">Sign In</span>
+            </a>
+            <a href="#" class="cart-link d-flex align-center gap-1">
+                <i class="fa-solid fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb navigation for better user experience and SEO -->
+    <nav class="breadcrumb container pt-3 pb-0" aria-label="breadcrumb">
+        <ol class="d-flex flex-wrap gap-2 p-0 m-0">
+            <li class="d-flex align-center"><a href="index.html">Home</a></li>
+            <li class="d-flex align-center"><a href="#">Apparel</a></li>
+            <li class="d-flex align-center" aria-current="page">Nike Arizona Wildcats Basketball Jersey</li>
+        </ol>
+    </nav>
+
+    <!-- Product Details Section -->
+    <section class="product-details container">
+        <!-- Grid layout ensures responsive design and maintains spacing between image and product info -->
+        <div class="product-grid d-grid gap-5 mb-5">
+            
+            <!-- Product image section -->
+            <div class="product-image d-flex flex-column gap-3">
+                <img src="images/jersey.jpg" alt="Nike Arizona Wildcats Basketball Jersey - Front View">
+            </div>
+
+            <!-- Product information section -->
+            <div class="product-info d-flex flex-column gap-3">
+                <h1>Nike Arizona Wildcats Basketball Jersey</h1>
+
+                <!-- Displaying star ratings dynamically -->
+                <div class="product-rating d-flex align-center">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                    <span class="ml-2">(156 reviews)</span>
+                </div>
+
+                <!-- Product price -->
+                <p class="product-price my-2 mx-0">$89.99</p>
+
+                <!-- Product description with key features -->
+                <div class="product-description">
+                    <p>Step up your game day style with this sleek Arizona Wildcats #1 basketball jersey! Designed in a bold navy with vibrant red and white accents, this jersey is perfect for showing off your Wildcat pride.</p>
+                    <ul class="features-list my-3 mx-0 p-0">
+                        <li class="d-flex align-center gap-2 mb-2"><i class="fa-solid fa-check"></i> 100% authentic Nike product</li>
+                        <li class="d-flex align-center gap-2 mb-2"><i class="fa-solid fa-check"></i> Dri-FIT technology</li>
+                        <li class="d-flex align-center gap-2 mb-2"><i class="fa-solid fa-check"></i> Official NCAA licensed product</li>
+                        <li class="d-flex align-center gap-2 mb-2"><i class="fa-solid fa-check"></i> Machine washable</li>
+                    </ul>
+                </div>
+
+                <!-- Size selection with buttons -->
+                <div class="size-selector my-3 mx-0">
+                    <label for="size" class="mb-2">Select Size:</label>
+                    <div class="size-options d-flex gap-3">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn active">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                </div>
+
+                <!-- Add to cart button -->
+                <button class="btn btn-primary add-to-cart d-flex align-center justify-center gap-2 mt-3">
+                    <i class="fa-solid fa-shopping-cart"></i>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suggested Products Section -->
+    <section class="suggested-products container">
+        <h2 class="section-title my-5 pb-2">You May Also Like</h2>
+        
+        <!-- Grid layout for suggested products -->
+        <div class="suggestions-grid d-grid grid-cols-4 gap-4 mt-5">
+            <a href="#" class="suggestion-card">
+                <img src="images/hoodie.jpg" alt="UA Vintage Hoodie">
+                <h3 class="py-2 px-3 m-0">UA Vintage Hoodie</h3>
+                <p class="price pt-0 pb-3 pl-3 m-0">$49.99</p>
+            </a>
+            <a href="#" class="suggestion-card">
+                <img src="images/cap2.jpg" alt="UA Wildcats Cap">
+                <h3 class="py-2 px-3 m-0">UA Wildcats Cap</h3>
+                <p class="price pt-0 pb-3 pl-3 m-0">$29.99</p>
+            </a>
+            <a href="#" class="suggestion-card">
+                <img src="images/water-bottle.jpg" alt="UA Water Bottle">
+                <h3 class="py-2 px-3 m-0">UA Water Bottle</h3>
+                <p class="price pt-0 pb-3 pl-3 m-0">$19.99</p>
+            </a>
+            <a href="#" class="suggestion-card">
+                <img src="images/keychain.jpg" alt="UA Keychain">
+                <h3 class="py-2 px-3 m-0">UA Keychain</h3>
+                <p class="price pt-0 pb-3 pl-3 m-0">$9.99</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer with links to policies -->
+    <footer class="footer pt-4">
+        <div class="container m-0 p-5">
+            <div class="footer-bottom mt-5 py-3 d-flex justify-between align-center flex-wrap gap-3">
+                <div class="footer-links d-flex gap-4">
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <p class="copyright mb-0">© WildcatWear 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>
