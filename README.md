@@ -80,4 +80,4 @@ Obtained from https://phoenixmed.arizona.edu/brand-toolkit/design/color
 - Font Awesome for icons
 - All images are used for demonstration purposes only
 
-For any questions or issues, please open a GitHub issue or contact me at tiffanytjhin@arizona.edu.
+For any questions or issues, please open a GitHub issue or contact me at tiffanytjhin@arizona.edu. Thanks!
